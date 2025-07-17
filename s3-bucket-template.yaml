@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "S3 Bucket with Parameterized Name and Versioning"
+
+Parameters:
+  BucketName:
+    Type: String
+    Description: Name of the bucket
+
+  VersioningStatus:
+    Type: String
+    AllowedValues:
+      - Enabled
+      - Suspended
+    Default: Suspended
+    Description: Versioning toggle
+
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref BucketName
+      VersioningConfiguration:
+        Status: !Ref VersioningStatus
