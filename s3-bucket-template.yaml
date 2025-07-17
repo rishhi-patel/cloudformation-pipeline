@@ -12,7 +12,7 @@ Parameters:
     AllowedValues:
       - Enabled
       - Suspended
-    Default: Suspended
+    Default: Enabled
     Description: Versioning toggle
 
 Resources:
