@@ -21,3 +21,6 @@ Resources:
       BucketName: !Ref BucketName
       VersioningConfiguration:
         Status: !Ref VersioningStatus
+      Tags:
+        - Key: Owner
+          Value: Rishikumar_8972657
