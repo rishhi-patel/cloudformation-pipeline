@@ -5,6 +5,7 @@ Parameters:
   BucketName:
     Type: String
     Description: Name of the bucket
+    Default: Rishikumar-8972657-s3-stack
 
   VersioningStatus:
     Type: String
