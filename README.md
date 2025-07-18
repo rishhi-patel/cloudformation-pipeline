@@ -69,12 +69,19 @@ This project demonstrates how to automate infrastructure deployment using AWS Cl
 
 ## 📸 Screenshots (to attach in report or folder)
 
-- Template validation
-- GitHub repo view
-- CodePipeline configuration
-- CodePipeline run logs
-- S3 bucket confirmation
-- Stack deletion confirmation
+### Template validation
+  <img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/e52896d5-6905-4a30-b363-3d1beec1997f" />
+  
+### CodePipeline run logs
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/9ac43943-a4e8-41ed-8baa-14c7fc91da42" />
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/a828b787-5317-4e87-8bc2-8bd2c9ad4c4e" />
+
+### S3 bucket confirmation
+  <img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/a45ec62b-2262-4ea6-b5ac-9ed2ec6b490c" />
+
+  
 
 ---
 
